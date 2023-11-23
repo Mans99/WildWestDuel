@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8F8F8F"
+    tools:context=".MatchActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/home_screen_background"
+            tools:layout_editor_absoluteX="56dp"
+            tools:layout_editor_absoluteY="-43dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/gunImageView"
+                android:layout_width="wrap_content"
+                android:layout_height="730dp"
+                android:rotation="270"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="50dp"
+                android:scaleX="1.8"
+                android:scaleY="-2"
+                android:src="@drawable/gun"
+                app:layout_constraintTop_toTopOf="parent" />
+        </FrameLayout>
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/counterView"
+        android:layout_width="255dp"
+        android:layout_height="103dp"
+        android:autoSizeTextType="uniform"
+        android:text="@string/counterView"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

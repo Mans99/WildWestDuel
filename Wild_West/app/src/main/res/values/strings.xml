@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Wild_West</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="counterView">TextView</string>
+    <string name="coordView">X</string>
+    <string name="tutorial">Howdy, Partner och välkommen till High Noon Duel! \n\n
+        Att duellera är enkelt men att bli den snabbaste pistolen i Lund kräver träning.
+        För att spela behöver du gå med i en match som du eller din fiende skapar.
+        En kod visas på skärmen för den som skapade spelet, spelaren som går med skriver in den på sin telefon.\n\n
+        När matchen startar kommer ni bli tillsagda att sänka pistolen, håll den då riktad nedåt vid er sida.
+        En nedräkning kommer starta och musik spelas. OBS! Håll ögonkontakt med din motståndare.
+        När nedräkningen är slut ljuder en signal och det är dags att skjuta.\n\n
+        Man skjuter genom att lyfta mobilen och rikta den mot sin motståndare.
+        När skottet gått av kan du se hur lång tid det tog för dig att skjuta på skärmen.
+        Jämför med din motståndare för att se vem som va snabbast, lägst tid vinner.\n\n
+        Nu vet du hur man spelar High Noon Duel, öva upp dina färdigheter i vår gun range!</string>
+    <string name="tutorialTest"> Howdy Partner, welcome to High Noon Duel! \n
+        Here\'s how to play: \n\n
+        1. Press \"Play Now\" and then \"Create Match\" to create a match code. \n\n
+        2. Ask your friend to enter the match code in the \"Join match\" view.\n\n
+        3. When the game starts, point your phone downwards at your side.\n\n
+        4. Duel music will start playing, when the music stops and draw is shouted, it\'s time to shoot.\n\n
+        5. Shoot by lifting your phone and aiming it at your opponent, the fastest time wins.\n\n
+        Now you know how to play High Noon Duel, practice your skills in our practice range!</string>
+    <string name="createMatch">New Match</string>
+
+</resources>

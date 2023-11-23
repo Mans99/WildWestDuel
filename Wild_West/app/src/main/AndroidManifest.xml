@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wild_West"
+        android:name=".util.ThemeMediaPlayer"
+        tools:targetApi="31">
+        <activity
+            android:name=".GunRangeActivity"
+            android:exported="true" />
+        <activity
+            android:name=".PracticeMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TutorialActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".JoinMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateOrJoinMatchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CreateUserActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Wild_West.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

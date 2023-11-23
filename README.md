@@ -1,9 +1,3 @@
-* Backend
+This is a project for the course advanced interaction design. It is an android application which puts the user in a Wild west duel. Using the phone as the gun this application will put your reactions to the test.
 
-To run backend:
-1. pip install fastapi
-2. uvicorn main:app --reload
-
-Api will run on http://127.0.0.1:8000
-
-http://127.0.0.1:8000/docs for auto generated api-docs
+The application utilises the accelerometor in order to detect when a shot should be fired. A firebase database enables PvP matches to happen. This repository is a copy of the original and is only used to display the project.
